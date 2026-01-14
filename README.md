@@ -44,12 +44,6 @@ When hazardous weather is detected (Rain or High Wind), the system automatically
 | LCD SDA | 21 |
 | LCD SCL | 22 |
 
-## How to Use
-1. **Clone the repo:** `git clone [Your-GitHub-Link-Here]`
-2. **Install Libraries:** Ensure the libraries listed above are installed via the Arduino Library Manager.
-3. **Hardware Setup:** Connect the sensors and servos according to the Pin Mapping table.
-4. **Upload:** Open the `.ino` file in Arduino IDE and upload it to your ESP32.
-5. **Monitor:** Open the Serial Monitor (115200 baud) or look at the LCD for status updates.
 
 ## Team Contributions
 * **Farrell Sevillen Arya:** System Architecture & Logic Development
