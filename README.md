@@ -5,33 +5,33 @@
 ---
 
 ## Project Overview
-[cite_start]This project is a Smart City prototype designed to address **Smart environmental monitoring** and **Smart public safety**[cite: 17, 19]. [cite_start]The system utilizes an ESP32 microcontroller to monitor real-time weather conditions, specifically rain and wind speed[cite: 10, 12]. 
+This project is a Smart City prototype designed to address **Smart environmental monitoring** and **Smart public safety**. The system utilizes an ESP32 microcontroller to monitor real-time weather conditions, specifically rain and wind speed. 
 
-[cite_start]When hazardous weather is detected (Rain or High Wind), the system automatically triggers a physical protection mechanism (Servos) to shield infrastructure or assets, such as an automated drying rack or a retractable roof system[cite: 13, 24].
+When hazardous weather is detected (Rain or High Wind), the system automatically triggers a physical protection mechanism (Servos) to shield infrastructure or assets, such as an automated drying rack or a retractable roof system.
 
 ## Features
-* [cite_start]**Real-time Wind Monitoring:** Uses an anemometer with an Interrupt Service Routine (ISR) for high-precision pulse counting[cite: 59].
-* [cite_start]**Rain Detection:** Dual-layer monitoring using digital signals for immediate response[cite: 47].
-* [cite_start]**Automated Actuation:** Two high-torque servos deploy protective covers when thresholds are met (Wind > 2.0 m/s or Rain detected)[cite: 13].
-* [cite_start]**Visual Status Updates:** 16x2 I2C LCD displays current wind speed and rain status for user convenience[cite: 47].
-* [cite_start]**Data Integrity:** Implements interrupt management (`cli()` and `sei()`) to ensure sensor data isn't corrupted during processing[cite: 54].
+* **Real-time Wind Monitoring:** Uses an anemometer with an Interrupt Service Routine (ISR) for high-precision pulse counting.
+* **Rain Detection:** Dual-layer monitoring using digital signals for immediate response.
+* **Automated Actuation:** Two high-torque servos deploy protective covers when thresholds are met (Wind > 2.0 m/s or Rain detected).
+* **Visual Status Updates:** 16x2 I2C LCD displays current wind speed and rain status for user convenience.
+* **Data Integrity:** Implements interrupt management (`cli()` and `sei()`) to ensure sensor data isn't corrupted during processing.
 
 ## Hardware Requirements
-* [cite_start]**Microcontroller:** ESP32 (NodeMCU) [cite: 10, 65]
+* **Microcontroller:** ESP32 (NodeMCU)
 * **Sensors:**
-    * [cite_start]Rain Sensor Module (Digital/Analog) [cite: 65]
-    * [cite_start]Anemometer (Wind Speed Sensor) [cite: 65]
+    * Rain Sensor Module (Digital/Analog)
+    * Anemometer (Wind Speed Sensor)
 * **Actuators:**
-    * [cite_start]2x MG995 or SG90 Servo Motors [cite: 65]
-* [cite_start]**Display:** 16x2 LCD with I2C Backpack [cite: 65]
+    * 2x MG995 or SG90 Servo Motors
+* **Display:** 16x2 LCD with I2C Backpack
 * **Others:** Breadboard, Jumper Wires, 5V External Power Supply (for servos)
 
 ## Software & Libraries
-* [cite_start]**Arduino IDE** [cite: 65]
+* **Arduino IDE**
 * **Libraries:**
-    * [cite_start]`ESP32Servo` [cite: 65]
-    * [cite_start]`LiquidCrystal_I2C` [cite: 65]
-    * [cite_start]`Wire.h` (Standard I2C) [cite: 65]
+    * `ESP32Servo`
+    * `LiquidCrystal_I2C`
+    * `Wire.h` (Standard I2C)
 
 ## Pin Mapping
 | Component | ESP32 GPIO |
@@ -52,9 +52,9 @@
 5. **Monitor:** Open the Serial Monitor (115200 baud) or look at the LCD for status updates.
 
 ## Team Contributions
-* [cite_start]**Farrell Sevillen Arya:** System Architecture & Logic Development [cite: 36]
-* [cite_start]**Teuku Agrianshah Pradipta:** Hardware Integration & Prototype Assembly [cite: 36]
-* [cite_start]**Daniel Lim:** Documentation & Requirements Analysis [cite: 36]
+* **Farrell Sevillen Arya:** System Architecture & Logic Development
+* **Teuku Agrianshah Pradipta:** Hardware Integration & Prototype Assembly
+* **Daniel Lim:** Documentation & Requirements Analysis
 
 ## 🔗 Links
 * **YouTube Demo:** https://youtube.com/shorts/k0SsQ3Ksuuk?si=gW7kUHc6kqfy8HlW
