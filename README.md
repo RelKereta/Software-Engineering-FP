@@ -5,7 +5,7 @@
 ---
 
 ## Project Overview
-[cite_start]This project is a Smart City prototype designed to address "Smart environmental monitoring" and "Smart public safety"[cite: 17, 19]. The system utilizes an ESP32 microcontroller to monitor real-time weather conditions, specifically rain and wind speed. 
+[cite_start]This project is a Smart City prototype designed to address **Smart environmental monitoring** and **Smart public safety**[cite: 17, 19]. [cite_start]The system utilizes an ESP32 microcontroller to monitor real-time weather conditions, specifically rain and wind speed[cite: 10, 12]. 
 
 [cite_start]When hazardous weather is detected (Rain or High Wind), the system automatically triggers a physical protection mechanism (Servos) to shield infrastructure or assets, such as an automated drying rack or a retractable roof system[cite: 13, 24].
 
@@ -52,9 +52,10 @@
 5. **Monitor:** Open the Serial Monitor (115200 baud) or look at the LCD for status updates.
 
 ## Team Contributions
-* **Farrell Sevillen Arya:** System Architecture & Logic Development 
-* **Teuku Agrianshah Pradipta**[Name 2]:** Hardware Integration & Prototype Assembly 
-* **Daniel Lim:** Documentation & Requirements Analysis 
+* [cite_start]**Farrell Sevillen Arya:** System Architecture & Logic Development [cite: 36]
+* [cite_start]**Teuku Agrianshah Pradipta:** Hardware Integration & Prototype Assembly [cite: 36]
+* [cite_start]**Daniel Lim:** Documentation & Requirements Analysis [cite: 36]
 
 ## 🔗 Links
 * **YouTube Demo:** https://youtube.com/shorts/k0SsQ3Ksuuk?si=gW7kUHc6kqfy8HlW
+* **GitHub Repository:** [Insert Your GitHub Link Here]
