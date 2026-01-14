@@ -58,4 +58,4 @@ When hazardous weather is detected (Rain or High Wind), the system automatically
 
 ## 🔗 Links
 * **YouTube Demo:** https://youtube.com/shorts/k0SsQ3Ksuuk?si=gW7kUHc6kqfy8HlW
-* **GitHub Repository:** (https://github.com/RelKereta/Software-Engineering-FP)
+* **GitHub Repository:** https://github.com/RelKereta/Software-Engineering-FP
