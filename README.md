@@ -52,9 +52,9 @@
 5. **Monitor:** Open the Serial Monitor (115200 baud) or look at the LCD for status updates.
 
 ## Team Contributions
-* [cite_start]**[Name 1]:** System Architecture & Logic Development 
-* [cite_start]**[Name 2]:** Hardware Integration & Prototype Assembly 
-* [cite_start]**[Name 3]:** Documentation & Requirements Analysis 
+* **Farrell Sevillen Arya:** System Architecture & Logic Development 
+* **Teuku Agrianshah Pradipta**[Name 2]:** Hardware Integration & Prototype Assembly 
+* **Daniel Lim:** Documentation & Requirements Analysis 
 
 ## 🔗 Links
-* [cite_start]**YouTube Demo:** [Insert Link Here] [cite: 38]
+* **YouTube Demo:** https://youtube.com/shorts/k0SsQ3Ksuuk?si=gW7kUHc6kqfy8HlW
